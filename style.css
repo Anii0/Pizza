@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Quicksand_Bold';
+  src: url('fonts/Quicksand_Bold.otf') format('opentype');
+}
+body {
+    background-color: #cfcab4
+;
+}
+h1 {
+    text-align: center;
+}
+#pizzatitle {
+    color:#48433c
+}
+
+
+button {
+    background-color: #ffe0b2; 
+    border: 2px solid #d2691e; 
+    color: #c4503b;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 2px;
+    font-family: 'Quicksand_Bold', sans-serif;
+    transition: transform 0.2s ease;
+}
+#pizza_area {
+    background-color: #f9e4c8;
+    border: 4px solid #fff1b5;
+    border-radius: 20px;
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#pizzadiv {
+  background-color: #fff5e0;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+#resetbutton {
+    background-color: rgb(193, 146, 146);
+    border: 2px solid #723a3a;
+    color: white;
+}
+
+#donebutton {
+    background-color: rgb(123, 164, 123);
+    border: 2px solid #376032;
+    color: white;
+}
